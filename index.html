@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Bonita</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Diseño<span>Bonito</span></div>
+            
+            <!-- Botón del menú móvil -->
+            <button class="menu-btn" aria-label="Abrir menú">☰</button>
+            
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section id="inicio" class="hero">
+            <h1>Bienvenido a mi Página</h1>
+            <p>Una página moderna y elegante creada con HTML y CSS.</p>
+            <button class="cta-button" id="openModal">Explora Más</button>
+        </section>
+
+        <!-- Modal (oculto por defecto) -->
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <span class="close-btn" id="closeModal">&times;</span>
+                <h2>¡Gracias por visitarnos!</h2>
+                <p>Esta es una ventana emergente de ejemplo. Puedes agregar formularios, imágenes o lo que necesites aquí.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2023 Página Bonita. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
